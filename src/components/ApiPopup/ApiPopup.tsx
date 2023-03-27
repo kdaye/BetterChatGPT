@@ -28,7 +28,10 @@ const ApiPopup = () => {
   };
 
   useEffect(() => {
-    setFirstVisit(false);
+    // 设置api
+    setFirstVisit(true);
+    setApiKey('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');
+    setIsModalOpen(false);
   }, []);
 
   return isModalOpen ? (
